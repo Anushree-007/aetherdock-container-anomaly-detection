@@ -1,0 +1,28 @@
+id,ts,experiment_id,container_id,event_type,details
+1,1759986359,exp_demo_1,mysql-older,baseline_start,Started normal idle phase
+2,1759988228,exp_demo_1,cpu_burner,cpu_burner_start,Started constant CPU load
+3,1759991377,exp_demo_1,cpu_burner,cpu_burner_end,Ended CPU burner phase
+4,1760029649,exp_demo_1,mem_bump,memory_leak_start,Started gradual memory increase
+5,1760033442,exp_demo_1,mem_bump,memory_leak_end,Ended memory bump phase
+6,1760033608,exp_demo_1,cpu_burst_busybox,cpu_spike_injected,Triggered 30s CPU burst
+7,1760034172,exp_demo_1,cpu_burst_busybox,cpu_spike_injected,Triggered 30s CPU burst
+8,1760034856,exp_demo_1,cpu_burst_busybox,experiment_end,Experiment finished
+9,1760034930,exp_demo_1,cpu_burst_busybox,experiment_end,Experiment finished
+10,1760084375,exp_demo_1,disk_stress,disk_stress_start,Started heavy disk write operations
+11,1760087039,exp_demo_1,disk_stress,disk_stress_end,Stopped disk stress test
+12,1760087293,exp_demo_1,net_flood,network_stress_start,Started continuous network requests
+13,1760088386,exp_demo_1,postgres_db,db_activity_start,Started continuous queries
+14,1760088401,exp_demo_1,redis_cache,cache_activity_start,Started continuous cache access
+15,1760088414,exp_demo_1,nginx_server,web_traffic_start,Started continuous web requests
+16,1760090102,exp_demo_1,net_flood,network_stress_start,Stopped continuous network requests
+17,1760090266,exp_demo_1,crash_loop,crash_loop_start,Simulating crash loop due to faulty command
+18,1760091872,exp_demo_1,crash_loop,crash_loop_end,Crash loop simulation ended
+19,1760092634,exp_demo_1,docker_daemon,overload_start,Spawned 20 dummy containers to stress the daemon
+20,1760093402,exp_demo_1,postgres_db,db_activity_start,Started continuous queries
+21,1760095073,exp_demo_1,cpu_load,cpu_stress_start,Started CPU load container
+22,1760095112,exp_demo_1,mem_leak,memory_stress_start,Started memory leak container
+23,1760095137,exp_demo_1,crash_loop,crash_loop_start,Started crash loop simulation
+24,1760096672,exp_demo_1,cpu_load,cpu_stress_start,Stopped CPU load container
+25,1760096689,exp_demo_1,mem_leak,memory_stress_start,Stopped memory leak container
+26,1760096710,exp_demo_1,crash_loop,crash_loop_start,Stopped crash loop simulation
+27,1760096719,exp_demo_1,cpu_burst_busybox,experiment_end,Experiment finished
