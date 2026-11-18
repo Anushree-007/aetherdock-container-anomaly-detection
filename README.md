@@ -1,6 +1,6 @@
 # AetherDock: Intelligent Container Health Monitoring and Anomaly Detection
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker) ![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-IsolationForest-F7931E?logo=scikitlearn) ![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite) ![Status](https://img.shields.io/badge/Status-Backend%20Complete-success) ![Conference](https://img.shields.io/badge/Presented%20at-IGNITE%202026-blueviolet) ![IEEE](https://img.shields.io/badge/IEEE-Xplore%20Pending-red)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) ![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker) ![Flask](https://img.shields.io/badge/Flask-Backend-black?logo=flask) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-IsolationForest-F7931E?logo=scikitlearn) ![SQLite](https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite) ![Status](https://img.shields.io/badge/Status-Backend%20Complete-success) ![Conference](https://img.shields.io/badge/Presented%20at-IGNITE%202026-blueviolet) ![IEEE](https://img.shields.io/badge/IEEE-Xplore-Published-green)
 
 AetherDock is an intelligent Docker container monitoring and anomaly detection system that continuously monitors the health of running containers, learns their normal behaviour using machine learning, and predicts abnormal container behaviour before failures become critical.
 
@@ -37,16 +37,11 @@ Unlike traditional monitoring systems that rely on manually configured threshold
 
 ## Research Publication
 
-This work has been presented at the **1st International Conference on Innovation & Growth in Next-Gen Intelligent Technology & Engineering (IGNITE-2026)**, a **IEEE Xplore & Scopus Indexed Conference**.
-
-The full paper has been accepted for conference presentation and is currently awaiting publication in the **IEEE Xplore Digital Library**. Once the paper is officially published, this repository will be updated with the complete citation details.
-
-If you use this project, its methodology, dataset collection strategy, feature engineering pipeline, or any part of the proposed anomaly detection framework in your academic or research work, please cite the corresponding research paper once it becomes available.
+This work was presented at the **1st International Conference on Innovation & Growth in Next-Gen Intelligent Technology & Engineering (IGNITE-2026)**. The research paper is now available in the **IEEE Xplore Digital Library**.
 
 ## Citation
 
-Citation information will be updated after the paper is published in the IEEE Xplore Digital Library.
-
+[Read the published AetherDock research paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11706034/). If you use this project, its methodology, dataset collection strategy, feature engineering pipeline, or anomaly detection framework in academic or research work, please cite the published paper.
 ---
 
 ## Project Motivation
